@@ -1,0 +1,129 @@
+/*==========================
+            GERAL
+============================*/
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 0.390625vw);
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+/*==========================
+            TOPO
+============================*/
+header{
+
+    background-color: #3B8686;
+    padding: 20px 10vw 20px 10vw;
+
+}header nav{
+
+    display: flex;
+    justify-content: space-between; /*Joga para direita*/
+    align-items: center;
+
+}header nav ul  {
+
+display: flex;
+
+}   header nav ul li{
+
+margin: 12px 12px 12px 12px;
+
+
+} header nav ul li a.menu-atual{
+
+    background-color:   rgba(255, 255, 255 , 0.2); /*tramsparencia*/
+
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+/*==========================
+            CONTEÚDO
+============================*/
+
+section.banner{
+
+    padding: 15vw 10vw 15vw 10vw;
+    background:linear-gradient(rgba(121,189,154, 0.4),rgba(121,189,154, 0.4)),  url(../imgens/back-banner.png) no-repeat center center;
+background-size: cover;
+
+}
+
+section.banner h2{
+
+        font-size: 2rem;
+
+}section.banner h2{
+
+    font-size: 3rem;
+    background: rgba(59,134 , 134, 0.5);
+    color: white;
+    width: 30%;
+    padding: 10px 20px 10px 20px;   
+
+}section.atendimento ul{
+
+    display: flex;
+    justify-content: space-between;
+}
+section.atendimento{
+    padding: 10vw 10vw 10vw 10vw;
+    text-align: center;
+}
+section.atendimento li{
+
+    width: 20% ;
+
+}section.atendimento p {
+
+    color: #747474;
+    padding: 0 0 1vw 0;
+}
+section.atendimento span {
+
+    font-size: 3rem;
+    color: #3B8686;
+}
+section.atendimento button{
+
+    background-color: #3B8686;
+    border: none;
+    color: #ffff;
+    font-size: 1rem;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+
+    
+}
+
+section.atendimento h2{
+
+    padding: 1vw 0 1vw 0 ;
+}
+
+section.anton{
+    padding: 10vw 15vw 0vw 15vw;
+    background:linear-gradient(rgba(121,189,154, 0.4),rgba(121,189,154, 0.4)),  url(../imgens/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.anton ul{
+    display: flex;
+    justify-content:space-between ;
+}
+section.anton span{
+    font-size: 3.5rem;
+    color: #ffff;
+    
+    
+}
+section.anton h6{
+padding: 1vw 0 1vw 0;
+font-size: 2rem;
+color: #ffff;
+   
+}
+
